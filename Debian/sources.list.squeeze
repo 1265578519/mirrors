@@ -1,0 +1,10 @@
+deb http://mirrors.itzmx.com/debian/ squeeze main non-free contrib
+deb http://mirrors.itzmx.com/debian/ squeeze-updates main non-free contrib
+deb http://mirrors.itzmx.com/debian/ squeeze-lts main non-free contrib
+deb-src http://mirrors.itzmx.com/debian/ squeeze main non-free contrib
+deb-src http://mirrors.itzmx.com/debian/ squeeze-updates main non-free contrib
+deb-src http://mirrors.itzmx.com/debian/ squeeze-lts main non-free contrib
+deb http://mirrors.itzmx.com/debian-security/ squeeze/updates main non-free contrib
+deb-src http://mirrors.itzmx.com/debian-security/ squeeze/updates main non-free contrib
+deb http://mirrors.itzmx.com/debian-backports/ squeeze-backports main contrib non-free
+deb-src http://mirrors.itzmx.com/debian-backports/ squeeze-backports main contrib non-free
