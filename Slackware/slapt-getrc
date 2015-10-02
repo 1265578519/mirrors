@@ -1,0 +1,6 @@
+WORKINGDIR=/var/slapt-get
+EXCLUDE=^aaa_elflibs,^devs,^glibc-.*,^kernel-.*,^udev,.*-[0-9]+dl$,x86_64
+SOURCE=http://mirrors.itzmx.com/slackware/slackware-current/:OFFICIAL
+SOURCE=http://mirrors.itzmx.com/slackware/slackware-current/extra/:PREFERRED
+SOURCE=http://mirrors.itzmx.com/slackware/slackware-current/testing/
+SOURCE=http://mirrors.itzmx.com/slackware/slackware-current/pasture/
