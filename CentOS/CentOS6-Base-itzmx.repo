@@ -14,7 +14,7 @@
 name=CentOS-$releasever - Base - itzmx.com
 baseurl=http://mirrors.itzmx.com/centos/$releasever/os/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
 #released updates 
@@ -22,7 +22,7 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Updates - itzmx.com
 baseurl=http://mirrors.itzmx.com/centos/$releasever/updates/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
 #additional packages that may be useful
@@ -30,7 +30,7 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Extras - itzmx.com
 baseurl=http://mirrors.itzmx.com/centos/$releasever/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
 #additional packages that extend functionality of existing packages
@@ -38,7 +38,7 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Plus - itzmx.com
 baseurl=http://mirrors.itzmx.com/centos/$releasever/centosplus/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
-gpgcheck=1
+gpgcheck=0
 enabled=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
@@ -47,6 +47,6 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Contrib - itzmx.com
 baseurl=http://mirrors.itzmx.com/centos/$releasever/contrib/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=contrib
-gpgcheck=1
+gpgcheck=0
 enabled=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
