@@ -9,33 +9,49 @@
 # remarked out baseurl= line instead.
 #
 #
+ 
 [base]
-name=CentOS-$releasever - Base - itzmx.com
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
+name=CentOS-$releasever - Base - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/os/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/os/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
-
-#released updates
+ 
+#released updates 
 [updates]
-name=CentOS-$releasever - Updates - itzmx.com
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
+name=CentOS-$releasever - Updates - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/updates/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/updates/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
-
+ 
 #additional packages that may be useful
 [extras]
-name=CentOS-$releasever - Extras - itzmx.com
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
+name=CentOS-$releasever - Extras - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/extras/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/extras/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
-
+ 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-$releasever - Plus - itzmx.com
+name=CentOS-$releasever - Plus - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/centosplus/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/centosplus/$basearch/
+gpgcheck=0
+enabled=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
+ 
+#contrib - packages by Centos Users
+[contrib]
+name=CentOS-$releasever - Contrib - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/contrib/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/contrib/$basearch/
 gpgcheck=0
 enabled=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7

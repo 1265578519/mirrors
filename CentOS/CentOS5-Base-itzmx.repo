@@ -9,52 +9,58 @@
 # remarked out baseurl= line instead.
 #
 #
-
+ 
 [base]
-name=CentOS-$releasever - Base - itzmx.com
+name=CentOS-$releasever - Base - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/os/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
+        https://mirrors.huaweicloud.com/centos/$releasever/os/$basearch/
 gpgcheck=0
-gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
-
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-5
+ 
 #released updates 
 [updates]
-name=CentOS-$releasever - Updates - itzmx.com
+name=CentOS-$releasever - Updates - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/updates/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
+        https://mirrors.huaweicloud.com/centos/$releasever/updates/$basearch/
 gpgcheck=0
-gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
-
-#packages used/produced in the build but not released
-[addons]
-name=CentOS-$releasever - Addons - itzmx.com
-baseurl=http://mirrors.itzmx.com/centos/$releasever/addons/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=addons
-gpgcheck=0
-gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
-
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-5
+ 
 #additional packages that may be useful
 [extras]
-name=CentOS-$releasever - Extras - itzmx.com
+name=CentOS-$releasever - Extras - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/extras/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
+        https://mirrors.huaweicloud.com/centos/$releasever/extras/$basearch/
+gpgcheck=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-5
+ 
+#packages used/produced in the build but not released
+[addons]
+name=CentOS-$releasever - Addons - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/addons/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/addons/$basearch/
 gpgcheck=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
-
+ 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-$releasever - Plus - itzmx.com
+name=CentOS-$releasever - Plus - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/centosplus/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
+        https://mirrors.huaweicloud.com/centos/$releasever/centosplus/$basearch/
 gpgcheck=0
 enabled=0
-gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
-
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-5
+ 
 #contrib - packages by Centos Users
 [contrib]
-name=CentOS-$releasever - Contrib - itzmx.com
+name=CentOS-$releasever - Contrib - mirrors.itzmx.com
+failovermethod=priority
 baseurl=http://mirrors.itzmx.com/centos/$releasever/contrib/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=contrib
+        https://mirrors.huaweicloud.com/centos/$releasever/contrib/$basearch/
 gpgcheck=0
 enabled=0
-gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-5
