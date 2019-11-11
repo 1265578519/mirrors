@@ -1,25 +1,34 @@
 [epel]
-name=Extra Packages for Enterprise Linux $releasever - $basearch
+name=Extra Packages for Enterprise Linux - EPEL - mirrors.itzmx.com $releasever - $basearch
 baseurl=http://mirrors.itzmx.com/epel/$releasever/$basearch
         https://mirrors.huaweicloud.com/epel/$releasever/$basearch
+		https://epel.mirror.constant.com/$releasever/$basearch
+		https://hkg.mirror.rackspace.com/epel/$releasever/$basearch
+		http://sg.fedora.ipserverone.com/epel/$releasever/$basearch
 failovermethod=priority
 enabled=1
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 
 [epel-debuginfo]
-name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug
+name=Extra Packages for Enterprise Linux - EPEL - mirrors.itzmx.com $releasever - $basearch - Debug
 baseurl=http://mirrors.itzmx.com/epel/$releasever/$basearch/debug
         https://mirrors.huaweicloud.com/epel/$releasever/$basearch/debug
+		https://epel.mirror.constant.com/$releasever/$basearch/debug
+		https://hkg.mirror.rackspace.com/epel/$releasever/$basearch/debug
+		http://sg.fedora.ipserverone.com/epel/$releasever/$basearch/debug
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 gpgcheck=0
 
 [epel-source]
-name=Extra Packages for Enterprise Linux $releasever - $basearch - Source
+name=Extra Packages for Enterprise Linux - EPEL - mirrors.itzmx.com $releasever - $basearch - Source
 baseurl=http://mirrors.itzmx.com/epel/$releasever/SRPMS
         https://mirrors.huaweicloud.com/epel/$releasever/SRPMS
+		https://epel.mirror.constant.com/$releasever/SRPMS
+		https://hkg.mirror.rackspace.com/epel/$releasever/SRPMS
+		http://sg.fedora.ipserverone.com/epel/$releasever/SRPMS
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
