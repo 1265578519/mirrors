@@ -11,62 +11,62 @@
 #
  
 [base]
-name=CentOS-$releasever - Base - mirrors.itzmx.com
+name=CentOS-6.10 - Base - mirrors.itzmx.com
 failovermethod=priority
-baseurl=http://mirrors.itzmx.com/centos-vault/$releasever/os/$basearch/
-        https://vault.centos.org/$releasever/os/$basearch/
-        https://linuxsoft.cern.ch/centos-vault/$releasever/os/$basearch/
-        https://hkg.mirror.rackspace.com/centos-vault/$releasever/os/$basearch/
-        https://mirror.nsc.liu.se/centos-store/$releasever/os/$basearch/
+baseurl=http://mirrors.itzmx.com/centos-vault/6.10/os/$basearch/
+        https://vault.centos.org/6.10/os/$basearch/
+        https://linuxsoft.cern.ch/centos-vault/6.10/os/$basearch/
+        https://hkg.mirror.rackspace.com/centos-vault/6.10/os/$basearch/
+        https://mirror.nsc.liu.se/centos-store/6.10/os/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
 #released updates 
 [updates]
-name=CentOS-$releasever - Updates - mirrors.itzmx.com
+name=CentOS-6.10 - Updates - mirrors.itzmx.com
 failovermethod=priority
-baseurl=http://mirrors.itzmx.com/centos-vault/$releasever/updates/$basearch/
-        https://vault.centos.org/$releasever/updates/$basearch/
-        https://linuxsoft.cern.ch/centos-vault/$releasever/updates/$basearch/
-        https://hkg.mirror.rackspace.com/centos-vault/$releasever/updates/$basearch/
-        https://mirror.nsc.liu.se/centos-store/$releasever/updates/$basearch/
+baseurl=http://mirrors.itzmx.com/centos-vault/6.10/updates/$basearch/
+        https://vault.centos.org/6.10/updates/$basearch/
+        https://linuxsoft.cern.ch/centos-vault/6.10/updates/$basearch/
+        https://hkg.mirror.rackspace.com/centos-vault/6.10/updates/$basearch/
+        https://mirror.nsc.liu.se/centos-store/6.10/updates/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
 #additional packages that may be useful
 [extras]
-name=CentOS-$releasever - Extras - mirrors.itzmx.com
+name=CentOS-6.10 - Extras - mirrors.itzmx.com
 failovermethod=priority
-baseurl=http://mirrors.itzmx.com/centos-vault/$releasever/extras/$basearch/
-        https://vault.centos.org/$releasever/extras/$basearch/
-        https://linuxsoft.cern.ch/centos-vault/$releasever/extras/$basearch/
-        https://hkg.mirror.rackspace.com/centos-vault/$releasever/extras/$basearch/
-        https://mirror.nsc.liu.se/centos-store/$releasever/extras/$basearch/
+baseurl=http://mirrors.itzmx.com/centos-vault/6.10/extras/$basearch/
+        https://vault.centos.org/6.10/extras/$basearch/
+        https://linuxsoft.cern.ch/centos-vault/6.10/extras/$basearch/
+        https://hkg.mirror.rackspace.com/centos-vault/6.10/extras/$basearch/
+        https://mirror.nsc.liu.se/centos-store/6.10/extras/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-$releasever - Plus - mirrors.itzmx.com
+name=CentOS-6.10 - Plus - mirrors.itzmx.com
 failovermethod=priority
-baseurl=http://mirrors.itzmx.com/centos-vault/$releasever/centosplus/$basearch/
-        https://vault.centos.org/$releasever/centosplus/$basearch/
-        https://linuxsoft.cern.ch/centos-vault/$releasever/centosplus/$basearch/
-        https://hkg.mirror.rackspace.com/centos-vault/$releasever/centosplus/$basearch/
-        https://mirror.nsc.liu.se/centos-store/$releasever/centosplus/$basearch/
+baseurl=http://mirrors.itzmx.com/centos-vault/6.10/centosplus/$basearch/
+        https://vault.centos.org/6.10/centosplus/$basearch/
+        https://linuxsoft.cern.ch/centos-vault/6.10/centosplus/$basearch/
+        https://hkg.mirror.rackspace.com/centos-vault/6.10/centosplus/$basearch/
+        https://mirror.nsc.liu.se/centos-store/6.10/centosplus/$basearch/
 gpgcheck=0
 enabled=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
 #contrib - packages by Centos Users
 [contrib]
-name=CentOS-$releasever - Contrib - mirrors.itzmx.com
+name=CentOS-6.10 - Contrib - mirrors.itzmx.com
 failovermethod=priority
-baseurl=http://mirrors.itzmx.com/centos-vault/$releasever/contrib/$basearch/
-        https://vault.centos.org/$releasever/contrib/$basearch/
-        https://linuxsoft.cern.ch/centos-vault/$releasever/contrib/$basearch/
-        https://hkg.mirror.rackspace.com/centos-vault/$releasever/contrib/$basearch/
-        https://mirror.nsc.liu.se/centos-store/$releasever/contrib/$basearch/
+baseurl=http://mirrors.itzmx.com/centos-vault/6.10/contrib/$basearch/
+        https://vault.centos.org/6.10/contrib/$basearch/
+        https://linuxsoft.cern.ch/centos-vault/6.10/contrib/$basearch/
+        https://hkg.mirror.rackspace.com/centos-vault/6.10/contrib/$basearch/
+        https://mirror.nsc.liu.se/centos-store/6.10/contrib/$basearch/
 gpgcheck=0
 enabled=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
