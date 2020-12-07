@@ -3,6 +3,7 @@ name=Extra Packages for Enterprise Linux - EPEL - mirrors.itzmx.com $releasever 
 failovermethod=priority
 baseurl=http://mirrors.itzmx.com/epel-archive/$releasever/$basearch
         https://archives.fedoraproject.org/pub/archive/epel/$releasever/$basearch
+        https://mirrors.aliyun.com/epel-archive/$releasever/$basearch
 enabled=1
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
@@ -12,6 +13,7 @@ name=Extra Packages for Enterprise Linux - EPEL - mirrors.itzmx.com $releasever 
 failovermethod=priority
 baseurl=http://mirrors.itzmx.com/epel-archive/$releasever/$basearch/debug
         https://archives.fedoraproject.org/pub/archive/epel/$releasever/$basearch/debug
+        https://mirrors.aliyun.com/epel-archive/$releasever/$basearch/debug
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 gpgcheck=0
@@ -21,6 +23,7 @@ name=Extra Packages for Enterprise Linux - EPEL - mirrors.itzmx.com $releasever 
 failovermethod=priority
 baseurl=http://mirrors.itzmx.com/epel-archive/$releasever/SRPMS
         https://archives.fedoraproject.org/pub/archive/epel/$releasever/SRPMS
+        https://mirrors.aliyun.com/epel-archive/$releasever/SRPMS
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 gpgcheck=0

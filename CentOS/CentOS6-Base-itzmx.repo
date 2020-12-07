@@ -18,6 +18,7 @@ baseurl=http://mirrors.itzmx.com/centos-vault/6.10/os/$basearch/
         https://linuxsoft.cern.ch/centos-vault/6.10/os/$basearch/
         https://hkg.mirror.rackspace.com/centos-vault/6.10/os/$basearch/
         https://mirror.nsc.liu.se/centos-store/6.10/os/$basearch/
+        https://mirrors.aliyun.com/centos-vault/6.10/os/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
@@ -30,6 +31,7 @@ baseurl=http://mirrors.itzmx.com/centos-vault/6.10/updates/$basearch/
         https://linuxsoft.cern.ch/centos-vault/6.10/updates/$basearch/
         https://hkg.mirror.rackspace.com/centos-vault/6.10/updates/$basearch/
         https://mirror.nsc.liu.se/centos-store/6.10/updates/$basearch/
+        https://mirrors.aliyun.com/centos-vault/6.10/updates/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
@@ -42,6 +44,7 @@ baseurl=http://mirrors.itzmx.com/centos-vault/6.10/extras/$basearch/
         https://linuxsoft.cern.ch/centos-vault/6.10/extras/$basearch/
         https://hkg.mirror.rackspace.com/centos-vault/6.10/extras/$basearch/
         https://mirror.nsc.liu.se/centos-store/6.10/extras/$basearch/
+        https://mirrors.aliyun.com/centos-vault/6.10/extras/$basearch/
 gpgcheck=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
  
@@ -54,6 +57,7 @@ baseurl=http://mirrors.itzmx.com/centos-vault/6.10/centosplus/$basearch/
         https://linuxsoft.cern.ch/centos-vault/6.10/centosplus/$basearch/
         https://hkg.mirror.rackspace.com/centos-vault/6.10/centosplus/$basearch/
         https://mirror.nsc.liu.se/centos-store/6.10/centosplus/$basearch/
+        https://mirrors.aliyun.com/centos-vault/6.10/centosplus/$basearch/
 gpgcheck=0
 enabled=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
@@ -67,6 +71,7 @@ baseurl=http://mirrors.itzmx.com/centos-vault/6.10/contrib/$basearch/
         https://linuxsoft.cern.ch/centos-vault/6.10/contrib/$basearch/
         https://hkg.mirror.rackspace.com/centos-vault/6.10/contrib/$basearch/
         https://mirror.nsc.liu.se/centos-store/6.10/contrib/$basearch/
+        https://mirrors.aliyun.com/centos-vault/6.10/contrib/$basearch/
 gpgcheck=0
 enabled=0
 gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-6
