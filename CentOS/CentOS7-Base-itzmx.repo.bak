@@ -1,0 +1,72 @@
+# CentOS-Base.repo
+#
+# The mirror system uses the connecting IP address of the client and the
+# update status of each mirror to pick mirrors that are updated to and
+# geographically close to the client.  You should use this for CentOS updates
+# unless you are manually picking other mirrors.
+#
+# If the mirrorlist= does not work for you, as a fall back you can try the 
+# remarked out baseurl= line instead.
+#
+#
+ 
+[base]
+name=CentOS-$releasever - Base - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/os/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/os/$basearch/
+        https://centos.mirror.constant.com/$releasever/os/$basearch/
+        https://hkg.mirror.rackspace.com/centos/$releasever/os/$basearch/
+        https://fr2.rpmfind.net/linux/centos/$releasever/os/$basearch/
+gpgcheck=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
+ 
+#released updates 
+[updates]
+name=CentOS-$releasever - Updates - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/updates/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/updates/$basearch/
+        https://centos.mirror.constant.com/$releasever/updates/$basearch/
+        https://hkg.mirror.rackspace.com/centos/$releasever/updates/$basearch/
+        https://fr2.rpmfind.net/linux/centos/$releasever/updates/$basearch/
+gpgcheck=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
+ 
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/extras/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/extras/$basearch/
+        https://centos.mirror.constant.com/$releasever/extras/$basearch/
+        https://hkg.mirror.rackspace.com/centos/$releasever/extras/$basearch/
+        https://fr2.rpmfind.net/linux/centos/$releasever/extras/$basearch/
+gpgcheck=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
+ 
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-$releasever - Plus - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/centosplus/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/centosplus/$basearch/
+        https://centos.mirror.constant.com/$releasever/centosplus/$basearch/
+        https://hkg.mirror.rackspace.com/centos/$releasever/centosplus/$basearch/
+        https://fr2.rpmfind.net/linux/centos/$releasever/centosplus/$basearch/
+gpgcheck=0
+enabled=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
+ 
+#contrib - packages by Centos Users
+[contrib]
+name=CentOS-$releasever - Contrib - mirrors.itzmx.com
+failovermethod=priority
+baseurl=http://mirrors.itzmx.com/centos/$releasever/contrib/$basearch/
+        https://mirrors.huaweicloud.com/centos/$releasever/contrib/$basearch/
+        https://centos.mirror.constant.com/$releasever/contrib/$basearch/
+        https://hkg.mirror.rackspace.com/centos/$releasever/contrib/$basearch/
+        https://fr2.rpmfind.net/linux/centos/$releasever/contrib/$basearch/
+gpgcheck=0
+enabled=0
+gpgkey=http://mirrors.itzmx.com/centos/RPM-GPG-KEY-CentOS-7
